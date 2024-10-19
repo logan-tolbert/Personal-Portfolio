@@ -45,104 +45,136 @@
     <!-- Open Graph Meta Tags Generated via https://www.opengraph.xyz -->
 
     <link rel="icon" type="image/x-icon" href="office-32.png" />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
   </head>
 
   <body>
     <header>
+      <div class="logo">
+        <p>🖥️ <span>|</span> Logan Tolbert</p>
+      </div>
+
       <nav>
-        <figure><img src="" alt="" /></figure>
-        <figcaption>Logan Tolbert</figcaption>
-        <ul>
-          <li><a href="#">Home</a> /</li>
-          <li><a href="assets/pages/projects.html" target="_blank">Projects</a> /</li>
-          <li><a href="assets/pages/articles.html" target="_blank">Articles</a> /</li>
-          <li><a href="assets/pages/contact.html" target="_blank">Contact</a></li>
+        <ul class="nav-links">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <span>/</span>
+          <li>
+            <a href="assets/pages/projects.html" target="_blank">Projects</a>
+          </li>
+          <span>/</span>
+          <li>
+            <a href="assets/pages/articles.html" target="_blank">Articles</a>
+          </li>
+          <span>/</span>
+          <li>
+            <a href="assets/pages/contact.html" target="_blank">Contact</a>
+          </li>
         </ul>
       </nav>
-      <h1>Full Stack Developer</h1>
-      <p>html only with proper layout, no styling</p>
     </header>
     <main>
-      <section>
-        <h2>Projects</h2>
-        <nav>
+      <div class="h1-container">
+        <h1>Full Stack Developer</h1>
+        <p>C# | .Net Develper | SQL | Python | JavaScript | CSS | HTML</p>
+      </div>
+      <div class="exp-container">
+        <section id="projects">
+          <h2>Projects</h2>
+          <nav>
+            <ul>
+              <li>HTML Only Portfolio</li>
+              <li>Calculator</li>
+              <li>Quiz App</li>
+              <li>Countdown Timer</li>
+              <li>Product Upcoming Page</li>
+            </ul>
+          </nav>
+        </section>
+        <section id="experience">
+          <article class="work">
+            <h2>Work Experience</h2>
+            <p>
+              roadmap.sh<br />
+              Solved all the frontend projects
+            </p>
+            <a href="">Visit My Profile</a>
+          </article>
+
+          <div id="divider"><hr /></div>
+
+          <article class="open-source">
+            <h3>Open Source Work</h3>
+            <p>
+              Contributed to 50 open source <br />projects. Made my own projects
+              with<br />
+              200 GitHub Stars
+            </p>
+            <a href="">Visit my GitHub Profile</a>
+          </article>
+        </section>
+        <section id="education">
+          <h2>Education</h2>
+          <p>
+            Graduated with 3.76 out of 4<br />
+            CGPA. Won Acme Hackathon.<br />
+            Organized 30 sessions.
+          </p>
+          <p>Courses I took:</p>
           <ul>
-            <li>HTML Only Portfolio</li>
-            <li>Calculator</li>
-            <li>Quiz App</li>
-            <li>Countdown Timer</li>
-            <li>Product Upcoming Page</li>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Human Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            <li>Distributed Database Systems</li>
+            <li>Discreet Mathematics</li>
           </ul>
-        </nav>
-      </section>
+        </section>
+      </div>
+
       <section>
-        <h2>Work Experience</h2>
-        <article>
-          <p>
-            roadmap.sh<br />
-            Solved all the frontend projects
-          </p>
-          <a href="">Visit My Profile</a>
-        </article>
-        <article>
-          <h3>Open Source Work</h3>
-          <p>
-            Contributed to 50 open source <br />projects. Made my own projects
-            with<br />
-            200 GitHub Stars
-          </p>
-          <a href="">Visit my GitHub Profile</a>
-        </article>
-      </section>
-      <section>
-        <h2>Education</h2>
-        <p>
-          Graduated with 3.76 out of 4<br />
-          CGPA. Won Acme Hackathon.<br />
-          Organized 30 sessions.
-        </p>
-        <p>Courses I took:</p>
-        <ul>
-          <li>Object Oriented Programming</li>
-          <li>Data Structures and Algorithms</li>
-          <li>Web Engineering</li>
-          <li>Artificial Intelligence</li>
-          <li>Human Computer Interaction</li>
-          <li>Computer Graphics</li>
-          <li>Database Management Systems</li>
-          <li>Distributed Database Systems</li>
-          <li>Discreet Mathematics</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Reviews from my Teachers</h2>
-        <article>
-          <p>
-            Logan Tolbert was brilliant<br />
-            student; always stood out<br />
-            with his assignments.
-          </p>
-          <author>Jane Doe</author>
-          <p>Assistant Professor</p>
-        </article>
-        <article>
-          <p>
-            Logan Tolbert was brilliant<br />
-            student; always stood out<br />
-            with his assignments.
-          </p>
-          <author>Jane Doe</author>
-          <p>Assistant Professor</p>
-        </article>
-        <article>
-          <p>
-            Logan Tolbert was brilliant<br />
-            student; always stood out<br />
-            with his assignments.
-          </p>
-          <author>Jane Doe</author>
-          <p>Assistant Professor</p>
-        </article>
+        <h4>Reviews from my Teachers</h2>
+        <div id="reviews">
+          <div class="card">
+            <article>
+              <p>
+                Logan Tolbert was brilliant<br />
+                student; always stood out<br />
+                with his assignments.
+              </p>
+              <author>Jane Doe</author>
+              <p>Assistant Professor</p>
+            </article>
+          </div>
+
+          <div class="card">
+            <article>
+              <p>
+                Logan Tolbert was brilliant<br />
+                student; always stood out<br />
+                with his assignments.
+              </p>
+              <author>Jane Doe</author>
+              <p>Assistant Professor</p>
+            </article>
+          </div>
+
+          <div class="card">
+            <article>
+              <p>
+                Logan Tolbert was brilliant<br />
+                student; always stood out<br />
+                with his assignments.
+              </p>
+              <author>Jane Doe</author>
+              <p>Assistant Professor</p>
+            </article>
+          </div>
+        </div>
       </section>
     </main>
     <footer>

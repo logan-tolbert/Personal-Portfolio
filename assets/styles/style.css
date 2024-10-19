@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: ghostwhite;
+}
+
+html {
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+  font-size: 27px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+body {
+  max-width: 100%;
+  min-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h1-container {
+  text-align: center;
+  align-items: center;
+  margin-top: 75px;
+  height: 300px;
+}
+
+.exp-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  text-align: center;
+}
+
+#projects {
+  grid-column: 1;
+  border: 1px solid black;
+  padding: 50px;
+}
+
+#projects li {
+  list-style: none;
+}
+
+#experience {
+  grid-column: 2/3;
+  border: 1px solid black;
+}
+
+#education {
+  grid-column: 3;
+  border: 1px solid black;
+}
+
+#education li {
+  list-style: none;
+}
+
+.work {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.open-source {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  text-align: left;
+}
+
+#reviews {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 40px;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+}
